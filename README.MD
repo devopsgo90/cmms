@@ -22,6 +22,7 @@ Think of it like **Jira for technicians**.
 - https://atlas-cmms.com
 
 **Screenshots**:
+
 <div align="center">
 
 ![work_orders_screenshot.png](images/work_orders_screenshot.png)
@@ -76,7 +77,7 @@ Download this file [.env.example](.env.example), rename it to `.env` and configu
 Do not delete the .env file
 
 | Name                        | Required | Description                                                                                                                                                                                                                                                                                                 | Default Value         |
-|-----------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
+| --------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | POSTGRES_USER               | Yes      | Postgres user                                                                                                                                                                                                                                                                                               | rootUser              |
 | POSTGRES_PWD                | Yes      | Postgres password                                                                                                                                                                                                                                                                                           | mypassword            |
 | MINIO_USER                  | Yes      | MiniO user                                                                                                                                                                                                                                                                                                  | minio                 |
@@ -105,7 +106,7 @@ Do not delete the .env file
 | OAUTH2_PROVIDER             | No       | Oauth2 provider `google` or `microsoft`                                                                                                                                                                                                                                                                     | (empty)               |
 | OAUTH2_CLIENT_ID            | No       | Oauth2 Client ID                                                                                                                                                                                                                                                                                            | (empty)               |
 | OAUTH2_CLIENT_SECRET        | No       | Oauth2 client secret                                                                                                                                                                                                                                                                                        | (empty)               |
-| LOGO_PATHS                  | No       | Logo names in this format. `{"dark": "dark.png","white": "white.png", }`. Add 2 logos in a folder named `logo` in the same folder as the `docker-compose.yml`.  Needs a license.                                                                                                                            | (empty)               |
+| LOGO_PATHS                  | No       | Logo names in this format. `{"dark": "dark.png","white": "white.png", }`. Add 2 logos in a folder named `logo` in the same folder as the `docker-compose.yml`. Needs a license.                                                                                                                             | (empty)               |
 | CUSTOM_COLORS               | No       | Custom colors in JSON format. All colors should be in hexadecimal format. `{"emailColors":"#00A0E3","primary":"#EE4B2B","secondary":"#6E759F","success":"#57CA22","warning":"#FFA319","error":"#FF1943","info":"#33C2FF","black":"#223354","white":"#ffffff","primaryAlt":"#000C57"}`                       | (empty)               |
 | BRAND_CONFIG                | No       | Brand config for white labeling. Requires license. In format `{ "name": "Quantum Labs", "shortName": "QL", "website": "https://example.io", mail: "contact@example.io" }`                                                                                                                                   | (empty)               |
 
@@ -199,3 +200,4 @@ Atlas CMMS is dual-licensed:
 
 To enable commercial features, you must set a valid `LICENSE_KEY`.  
 Contact us at [contact@atlas-cmms.com](mailto:contact@atlas-cmms.com) to purchase a commercial license.
+coomit 07/11/2025
